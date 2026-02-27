@@ -14,7 +14,7 @@ const server = http.createServer(app);
 const io = new Server(server, { cors: { origin: "*" } });
 
 const platforms = ["Netflix", "Prime Video", "Disney+ Hotstar", "Crunchyroll", "Aha"];
-const defaultDataset = "D:/bhuvan/data.csv";
+const defaultDataset = path.join(__dirname, "../data/data.csv");
 const datasetPath = process.env.DATASET_PATH || defaultDataset;
 
 // Ensure uploads directory exists
