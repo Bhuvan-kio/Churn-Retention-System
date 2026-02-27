@@ -6,6 +6,16 @@
 
 ---
 
+## Themes
+
+| 🌑 Dark | ☀️ Light | ⚫ AMOLED |
+|--------|---------|---------|
+| ![Dark](./assets/theme-dark.png) | ![Light](./assets/theme-light.png) | ![AMOLED](./assets/theme-amoled.png) |
+
+> Toggle between themes using the **sun/moon icon** in the top-right corner.
+
+---
+
 ## Features
 
 - **Realtime Streaming Analytics** — Socket.io powered live data stream updating every 2.2s
